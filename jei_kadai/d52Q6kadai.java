@@ -1,6 +1,3 @@
-package jei.jei_kadai;
-
-
 public class d52Q6kadai {
     public static void main(String[] args) {
         Drink[] dr = {
@@ -10,11 +7,8 @@ public class d52Q6kadai {
         };
         VendingMachine vm = new VendingMachine(dr);
         vm.display();
-        vm.execCom("i 100");
-        vm.execCom("p 2");
         vm.execCom("i 500");
-        vm.execCom("p 3");
-        vm.execCom("c 0");
+        vm.execCom("p 1");
     }
 }
 

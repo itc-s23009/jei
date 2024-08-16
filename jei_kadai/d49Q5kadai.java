@@ -1,6 +1,7 @@
 // s23009
 /*
-
+base3 を追加。
+if文を追加、Integerも追加
  */
 
 public class d49Q5kadai {

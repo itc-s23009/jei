@@ -1,6 +1,5 @@
-package jei.jei_kadai;
 
-public class d53Q5kadai{
+public class d52Q5kadai {
     public static void main(String[] args) {
         String majors = "+----";
         int LIMIT = 400;
@@ -26,7 +25,7 @@ public class d53Q5kadai{
         //グラフ表字
         for (i = 0; i < data.length; i++) {
             System.out.printf("%4d : ", data[i]);
-            int n = (data[i] - 1) / 5 + 1;
+            int n = (data[i] - 1) / 10 + 1;
             for (int j = 0; j < n; j++) {
                 System.out.print("*");
             }
